@@ -2,10 +2,6 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 
 def directors_totals(nds)
-  def pretty_print_nds(nds)
-  pp nds
-end
-
   director_index = 0
   totals = {}
 
